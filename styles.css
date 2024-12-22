@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; */
+    width: 600px;
+}
+
+.storage {
+    border: 5px solid black;
+    height: 50px;
+    width: 100%;
+}
+.value {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.value>div{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
