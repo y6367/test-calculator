@@ -16,6 +16,8 @@ body{
     border: 5px solid black;
     height: 50px;
     width: 100%;
+    align-content: center;
+    padding-left: 20px;
 }
 .value {
     display: flex;
