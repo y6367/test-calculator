@@ -16,6 +16,7 @@ function reset() {
     sign = undefined
     numberB = 0;
     storage.innerHTML = numberA
+    calculate = numberA;
 }
 
 for (let i = 0; i < value.length; i++) {
@@ -54,5 +55,8 @@ enter.addEventListener("click", () => {
     }
 })
 clear.addEventListener("click", () => {
-    
+    calculate = "";
+    numberA = undefined;
+    numberB = undefined;
+    displayCurrent();
 })
